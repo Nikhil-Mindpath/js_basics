@@ -71,6 +71,19 @@ const obj3  =  {...obj1,...obj2}
 // console.log(obj3);
 
 // to print obj  again and again do this insteadd of obj.val
-const {first : objkey}  = obj1
-console.log(objkey);
+// const {first : objkey}  = obj1
+// console.log(objkey);
 
+
+
+// iterating objects 
+
+// for(let key in obj3){
+//     console.log(obj3[key]);
+// }
+
+//  Object.entries(obj3).map(entry => {
+//     console.log("key  = ", entry[0], " Value = ", entry[1]);
+//     entry[0] = "Manually enterdkey ";
+//     console.log(entry);
+// })
