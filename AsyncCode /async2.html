@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1> Learning Javascript </h1>
+    <button id="start">Start </button>
+    <button id="stop"> Stop</button>
+</body>
+<script>
+    const sayDate = function (str) {
+        console.log("Hitesh ", Date.now(), "hi");
+    }
+    const sayInterval = function(){}
+    // 
+
+    const stopInterval = 
+    document.querySelector('#start').addEventListener('click',function(){
+        const start  =  function(){
+            console.log("Nikhil ",Date.now());
+    }
+    const toStop  =  setInterval(start,1000,(click=start));
+    
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearInterval(toStop);
+        console.log("Stopped ");
+    }
+)
+
+    });
+</script>
+
+</html>
